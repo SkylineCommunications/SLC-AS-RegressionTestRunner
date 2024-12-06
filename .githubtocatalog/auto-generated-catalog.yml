@@ -21,7 +21,7 @@
 #   - functiondefinition: If the Catalog item is a DataMiner function definition.
 #   - scriptedconnector: If the Catalog item is a DataMiner scripted connector.
 #   - bestpracticesanalyzer: If the Catalog item is a DataMiner Best Practices Analysis file.
-type: automationscript
+type: Automation
 # [Required]
 # The ID of the Catalog item.
 # All registered versions for the same ID are shown together in the Catalog.
@@ -30,7 +30,7 @@ type: automationscript
 # If the ID is filled in but does not exist yet, a new Catalog item will be registered with this ID.
 # If the ID is filled in but does exist, properties of the item will be overwritten.
 #   Must be a valid GUID.
-id: bbc01d70-d20e-4ddc-aadd-0a95a8b3bbab
+id: f1f31d90-b630-4155-b63e-c9aa50450916
 # [Required]
 # The human-friendly name of the Catalog item.
 # Can be changed at any time.
@@ -68,3 +68,4 @@ owners: []
 #   Cannot contain leading or trailing whitespace characters.
 tags:
   - dataminer-automation-script
+  - regression-testing
