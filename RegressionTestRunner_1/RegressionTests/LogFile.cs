@@ -43,11 +43,11 @@
 			var lineIndexesOfTestResults = logLines.Where(line => line.Contains(testResultString)).Select(line => Array.IndexOf(logLines, line));
 
 			foreach (int index in lineIndexesOfTestResults)
-			{		
+			{
 				try
 				{
 					string lineWithPostBody = logLines[index - 1];
-
+					
 					int startIndex = lineWithPostBody.IndexOf('{');
 					int length = lineWithPostBody.LastIndexOf('}') - startIndex + 1;
 

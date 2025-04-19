@@ -64,6 +64,7 @@ namespace RegressionTestRunner
 
 	public class Script
 	{
+
 		private const string ScriptConfigurationParamName = "ScriptConfiguration";
 
 		private InteractiveController app;
@@ -78,7 +79,7 @@ namespace RegressionTestRunner
 
 		/// <summary>
 		/// The Script entry point.
-		/// Engine.ShowUI();
+		/// Engine.ShowUI---();
 		/// </summary>
 		/// <param name="engine">Link with SLScripting process.</param>
 		public void Run(Engine engine)
